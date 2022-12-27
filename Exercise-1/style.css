@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+}
+div.centerTable{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+tr#TableHeader{
+    background-color: yellow;
+}
+table.mod, table.mod th, table.mod td{
+    border: black solid 1px;
+    border-collapse: collapse;
+}
+table.original, table.original th, table.original td{
+    color: blue;
+}
+.leftSide{
+    text-align: left;
+}
+.rightSide{
+    text-align: right;
+}
+tr.YellowTable{
+    background-color: yellow;
+}
+tr.OrangeTable{
+    background-color: orange;
+}
